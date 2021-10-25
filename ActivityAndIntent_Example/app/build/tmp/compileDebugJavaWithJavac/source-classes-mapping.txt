@@ -1,0 +1,25 @@
+com/example/activityandintent_example/MainActivity3.java
+ com.example.activityandintent_example.MainActivity3
+com/example/model/Product2.java
+ com.example.model.Product2
+ com.example.model.Product2$1
+com/example/activityandintent_example/ProcessActivity.java
+ com.example.activityandintent_example.ProcessActivity
+ com.example.activityandintent_example.ProcessActivity$1
+com/example/model/Product1.java
+ com.example.model.Product1
+com/example/activityandintent_example/ReceiveActivity.java
+ com.example.activityandintent_example.ReceiveActivity
+com/example/activityandintent_example/MainActivity2.java
+ com.example.activityandintent_example.MainActivity2
+com/example/activityandintent_example/BuildConfig.java
+ com.example.activityandintent_example.BuildConfig
+com/example/activityandintent_example/MainActivity.java
+ com.example.activityandintent_example.MainActivity
+ com.example.activityandintent_example.MainActivity$1
+ com.example.activityandintent_example.MainActivity$2
+ com.example.activityandintent_example.MainActivity$3
+ com.example.activityandintent_example.MainActivity$4
+ com.example.activityandintent_example.MainActivity$5
+ com.example.activityandintent_example.MainActivity$6
+ com.example.activityandintent_example.MainActivity$7
