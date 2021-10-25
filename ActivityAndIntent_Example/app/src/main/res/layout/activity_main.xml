@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:padding="15dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <Button
+            android:id="@+id/btnOpenActivity2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Open Activity 2"
+            android:layout_gravity="center"
+            android:backgroundTint="#009688"
+            android:layout_marginRight="15dp">
+        </Button>
+        <Button
+            android:id="@+id/btnOpenDialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Open Dialog"
+            android:layout_gravity="center"
+            android:backgroundTint="#F44336">
+        </Button>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnSendData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send Data"
+        android:layout_gravity="center"
+        android:backgroundTint="#8BC34A"/>
+
+    <EditText
+        android:id="@+id/edtNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter number"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/btnSend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="SEND"
+        android:backgroundTint="#673AB7"/>
+    <TextView
+        android:id="@+id/txtResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textColor="#009688"
+        android:gravity="center"/>
+    <EditText
+        android:id="@+id/edtPhoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter phone number"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:layout_marginTop="15dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <Button
+            android:id="@+id/btnDial"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dial"
+            android:layout_gravity="center"
+            android:backgroundTint="#009688"
+            android:layout_marginRight="15dp">
+        </Button>
+        <Button
+            android:id="@+id/btnCall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Call"
+            android:layout_gravity="center"
+            android:backgroundTint="#F44336">
+        </Button>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnOpenCamera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OPEN CAMERA"
+        android:layout_gravity="center"
+        android:backgroundTint="#2196F3"
+        android:layout_marginTop="10dp"/>
+    <ImageView
+        android:id="@+id/imvPhoto"
+        android:layout_width="200dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"/>
+</LinearLayout>
